@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de un Trapecio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Área de un Trapecio</h1>
+    <div class="container">
+        <script>
+            var baseuno = 10;
+            var basedos = 14;
+            var altura = 20;
+
+            if (baseuno > basedos) {
+                var area1 = ((baseuno + basedos) * altura) / 2;
+                document.write("El trapecio con base mayor ", baseuno, "cm + base menor ", basedos, "cm x altura ", altura, "cm, es igual a = ", area1, "cm²");
+            } else {
+                var area2 = ((basedos + baseuno) * altura) / 2;
+                document.write("El trapecio con base mayor ", basedos, "cm + base menor ", baseuno, "cm x altura ", altura, "cm, es igual a = ", area2, "cm²");
+            }
+        </script>
+    </div>
+</body>
+</html>
